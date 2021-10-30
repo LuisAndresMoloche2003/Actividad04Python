@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+     body { font-family : calibri;
+    background-image: linear-gradient(to right, #0f2951, #003d62, #004e5e, #005c44, #24661d);}
+    div { width : 800px;  height: 750px;text-align : justify; margin-top : 70px; padding: 20px; background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+    border-radius:11px;box-shadow: 12px 10px 6px 7px rgba(0, 0, 0, 0.5);}
+    h1 { font-family:Arial black;text-align : center; COLOR:#054704;}
+    p{margin:50px;font-family:Times Roman;font-size:20px;}
+    .btn-grad {background-image: linear-gradient(to right, #134E5E 0%, #71B280  51%, #134E5E  100%)}
+    .btn-grad {
+    font-family:Arial black;
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            border-radius: 10px;
+            display: block;
+          }
+
+    .btn-grad:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+          }
+    table{ margin:30px;border-collapse: separate;
+   border-spacing: 5px;border: 1px solid #000;
+   color: black;;
+    }
+    .th {padding:10px; text-align:center;border: 1px solid #000}
+    </style>
+</head>
+<body>
+<center>
+<div>
+
+        <h1>PROYECTOS DE TECNOLOGIA DE LA INFORMACION</h1>
+        <table>
+            <tr>
+                <th class='th' scope="row">PROYECTOS</th >
+                <th class='th'  >DESCRIPCIÓN</th>
+            </tr>
+            <tr>
+                <th class='th'  >{{pro.0}}</th>
+                <td class='th' >Python es un lenguaje sencillo de leer y escribir debido a su alta similitud con el lenguaje humano. Además, se trata de un lenguaje multiplataforma de código abierto y, por lo tanto, gratuito, lo que permite desarrollar software sin límites. </td>
+            </tr>
+            <tr>
+                <th class='th'   >{{pro.1}}</th>
+                <td class='th'  >Es un lenguaje de programacion de uso general que se adapta especialmente al desarrollo web. Se
+                    utiliza para administrar contenido dinamico, bases de datos, seguimiento de sesiones, etc.</td>
+            </tr>
+            <tr>
+                <th class='th'  > {{pro.2}}</th>
+                <td class='th'  >Es un lenguaje de acceso a bases de datos que le permite al usuario ejecutar operaciones entre estos datos relacionados con el apoyo de cálculos relacionales en forma de lenguaje de comandos.</td>
+            </tr>
+            <tr class='th' >
+                <th class='th'  >{{pro.3}}</th>
+                <td class='th'  >Es un lenguaje de programación multiparadigma desarrollado y estandarizado por la empresa Microsoft como parte de su plataforma .NET, que después fue aprobado como un estándar por la ECMA e ISO. C# es uno de los lenguajes de programación diseñados para la infraestructura de lenguaje común.es un lenguaje de programación multiparadigma desarrollado y estandarizado por la empresa Microsoft como parte de su plataforma .NET, que después fue aprobado como un estándar por la ECMA e ISO. C# es uno de los lenguajes de programación diseñados para la infraestructura de lenguaje común.</td>
+            </tr>
+        </table>
+        <br>
+    <center>
+        <a href='/inicio/'><input type="button" name="volver" value="Volver a inicio" class='btn-grad'></a></center>
+
+</div>
+     </center>
+</body>
+</html>
+
